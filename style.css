@@ -4,8 +4,9 @@
 
   .flex {
     background-color: blanchedalmond;
-    border: 2px gray;
+    border: 2px solid gray;
     margin: 0 auto;
+    padding: 10px;
     width: 600px;
     height: 400px;
     display: flex;
@@ -16,7 +17,8 @@
 
   .flex div {
     background-color: greenyellow;
-    color: white;
+    color: black;
+    border: 1px solid blanchedalmond;
     text-align: center;
     width: calc(100% / 4);
     padding: 20px;
@@ -24,10 +26,11 @@
 
   .grid {
     background-color: blanchedalmond;
-    border: 2px gray;
+    border: 2px solid gray;
     margin: 0 auto;
     width: 600px;
     height: 400px;
+    padding: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: stretch;
@@ -36,7 +39,8 @@
 
   .grid div {
     background-color: greenyellow;
-    color: white;
+    color: black;
+    border: 1px solid blanchedalmond;
     text-align: center;
     padding: 20px;
   }
